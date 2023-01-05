@@ -1,0 +1,22 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lextra/varity/main/winning'))()
+
+-- [ Streamable Settings ] --
+getgenv().Varity.SilentAim = true
+getgenv().Varity.HotKey = "T"
+getgenv().Varity.Resolver = false
+getgenv().Varity.Prediction = 0.125
+getgenv().xeno.TargetPart = {"Head", "LeftHand", "RightHand", "LeftLowerArm", "RightLowerArm", "LeftUpperArm", "RightUpperArm", "LeftFoot", "LeftLowerLeg", "UpperTorso", "HumanoidRootPart", "LeftUpperLeg", "RightLowerLeg", "RightFoot", "LowerTorso"}
+getgenv().xeno.FOV = 22.9
+getgenv().xeno.HitChance = 290
+getgenv().xeno.ShowFOV = false
+getgenv().xeno.FOVColour = Color3.fromRGB(255, 255, 255)
+getgenv().MacroKeybind = "="
+
+-- [ Tracer/Smooth Lock Settings ] --
+getgenv().Settings = {
+     Key = "C",
+    Enabled = true,
+    Pred = 6.72,
+    Part = "HumanoidRootPart",
+    Smoothness = 0.076
+}
